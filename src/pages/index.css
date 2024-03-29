@@ -1,0 +1,87 @@
+/* index.css */
+
+/* Common styles */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.navigation {
+  background-color: #444;
+  padding: 10px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Desktop styles */
+@media (min-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: center;
+  }
+
+  .navigation ul li {
+    margin-right: 20px;
+  }
+
+  .product-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .product-list li {
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 767px) {
+  .navigation ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .product-list {
+    padding: 10px;
+  }
+
+  .product-list li {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+
+  .footer {
+    flex-direction: column;
+  }
+}

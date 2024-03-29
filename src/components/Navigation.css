@@ -1,0 +1,34 @@
+/* Navigation.css */
+.navigation {
+  background-color: #007bff; /* Blue background color */
+  display: flex;
+  justify-content: center; /* Align items horizontally at the center */
+  align-items: center;
+  height: 50px;
+}
+
+.navigation ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation li:last-child {
+  margin-right: 0;
+}
+
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  transition: background-color 0.3s;
+}
+
+.navigation a:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}

@@ -1,0 +1,39 @@
+/* Stories.css */
+.stories-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.stories-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.stories-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.story-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.story-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.story-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.story-item p {
+  font-size: 16px;
+}

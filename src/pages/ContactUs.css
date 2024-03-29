@@ -1,0 +1,21 @@
+/* ContactUs.css */
+.contact-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-us-container h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact-us-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
